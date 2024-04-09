@@ -14,6 +14,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         print("I'm Asmongold")
         labelOne.text = "I'm a pirate!~"
+        
+        print("Bigga booma~~")
     }
 
 
