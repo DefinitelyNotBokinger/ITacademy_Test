@@ -9,10 +9,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var labelOne: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("Hello world!")
         print("I'm Asmongold")
+        labelOne.text = "I'm a pirate!~"
     }
 
 
